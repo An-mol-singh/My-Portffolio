@@ -512,7 +512,7 @@ color: #ff004f;
          margin-right: 20px;
     }
 } */
-@media only screen and (max-width:650px) and (min-width:1100px)
+@media only screen and (max-width:1550px) and (min-width:1100px)
 {
     .header {
         width: 100%;
