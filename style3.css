@@ -276,7 +276,7 @@ body {
     border-radius: 10px;
     position: absolute;
     left: 0;
-    bottom:-10px;
+    bottom:100px;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -634,7 +634,10 @@ color: #ff004f;
     .headertext h1 {
 font-size: 30px;
     }
-   
+   .layer{
+       bottom:50px;
+       font-size:5px;
+   }
     
 }
 
