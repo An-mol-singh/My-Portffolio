@@ -28,7 +28,7 @@ body {
 } */
 .header {
     width: 100%;
-    height: 168vh;
+    height: 100vh;
     background-image: url(bg.png);
     background-size: cover;
     background-position: center;
@@ -512,6 +512,24 @@ color: #ff004f;
          margin-right: 20px;
     }
 } */
+@media only screen and (max-width:650px) and (min-width:1100px)
+{
+    .header {
+        width: 100%;
+        height: 165vh;
+        background-image: url(bg.png);
+        background-size: cover;
+        background-position: center;
+    
+    }
+}
+@media only screen and (max-width:650px) and (min-width:800px;)
+{
+    .headertext
+    {
+        padding:50%;
+    }
+}
 @media only screen and (max-width:650px)
 {
     #navbar .fas {
