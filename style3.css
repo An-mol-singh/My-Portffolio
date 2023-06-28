@@ -523,11 +523,10 @@ color: #ff004f;
     
     }
 }
-@media only screen and (max-width:650px) and (min-width:800px;)
+@media only screen and (max-width:780px) and (min-width:500px)
 {
-    .headertext
-    {
-        padding:50%;
+    .headertext{
+        padding-right: 40%;
     }
 }
 @media only screen and (max-width:650px)
