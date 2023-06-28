@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anmol's portfolio</title>
+    <link rel="stylesheet" href="css/style3.css">
+    <script src="https://kit.fontawesome.com/12f8775aca.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <nav id="navbar">
+                <img src="logo3.jpeg" alt="logo" class="logo">
+
+                <ul id="sidemenu">
+                    <li><a href=".header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">contact us</a></li>
+                    <i class="fas fa-times" onclick="closetab()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="opentab()"></i>
+            </nav>
+            <div class="headertext">
+                <p>UI/UX Designer</p>
+                <h1>Hi ,I'm <span> Kinwin </span> <br>from Nowhere</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol1">
+                    <img src="bg1.jpg" alt="aadmi matha upper karke">
+                </div>
+                <div class="aboutcol2">
+                    <h1 class="subtitles">About Me</h1>
+                    <p class="jio">I am an undergraduate student pursuing my Bachelor of Technology from NIT Jamshedpur,
+                        Jharkhand. Currently in my third year of college, I take pride in being a skilled frontend
+                        developer with in-depth knowledge of HTML, CSS, and JavaScript. Alongside my coding expertise, I
+                        also possess a knack for video and photo editing. Combining my technical skills with a touch of
+                        creativity, I strive to bring innovative ideas to life.</p>
+                    <div class="tabtitles">
+                        <p class="tablink activelink" onclick="opentab1('Skills')">Skills</p>
+                        <p class="tablink" onclick="opentab1('Experience')">Experience</p>
+                        <p class="tablink" onclick="opentab1('Education')">Education</p>
+                    </div>
+                    <div class="tabcontents activetab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Web interface/App interfce</li>
+                            <li><span>Web Development</span><br>Web app development</li>
+                            <li><span>UI/UX</span><br>Building android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="Experience">
+                        <ul>
+                            <li><span>2026-Till now</span><br>Software developer Google</li>
+                            <li><span>2025-2026</span><br>Software developer Microsoft</li>
+                            <li><span>2024</span><br>Intern Amazone</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="Education">
+                        <ul>
+                            <li><span>2021-2025</span><br>Btech from NIT Jamshedpur</li>
+                            <li><span>2020</span><br>Intermediate from DAV suriya</li>
+                            <li><span>2018</span><br>metriculation from DAV suriya</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="conatainer">
+            <h1 class="subtitles">Services</h1>
+            <div class="serviceslist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UX/UI design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt at excepturi, voluptatem
+                        recusandae, voluptatibus accusantium cum, dolor aperiam iusto veniam architecto iste consectetur
+                        aspernatur. Doloribus minus suscipit magni deleniti modi.</p>
+                    <a href="#" class="btn1">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-thin fa-crop-simple"></i>
+                    <h2>Web design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt at excepturi, voluptatem
+                        recusandae, voluptatibus accusantium cum, dolor aperiam iusto veniam architecto iste consectetur
+                        aspernatur. Doloribus minus suscipit magni deleniti modi.</p>
+                    <a href="#" class="btn1">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-light fa-code-branch"></i>
+                    <h2>App design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt at excepturi, voluptatem
+                        recusandae, voluptatibus accusantium cum, dolor aperiam iusto veniam architecto iste consectetur
+                        aspernatur. Doloribus minus suscipit magni deleniti modi.</p>
+                    <a href="#" class="btn1">learn more</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitles">Portfolio</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="work1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat facilis saepe minus dolor
+                            aliquam deleniti recusandae, excepturi molestias sint cupiditate. Tenetur quia nemo omnis in
+                            voluptates, consequatur adipisci natus quo?</p>
+                        <a href="#"><i class="fa-regular fa-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="work2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat facilis saepe minus dolor
+                            aliquam deleniti recusandae, excepturi molestias sint cupiditate. Tenetur quia nemo omnis in
+                            voluptates, consequatur adipisci natus quo?</p>
+                        <a href="#"><i class="fa-regular fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat facilis saepe minus dolor
+                            aliquam deleniti recusandae, excepturi molestias sint cupiditate. Tenetur quia nemo omnis in
+                            voluptates, consequatur adipisci natus quo?</p>
+                        <a href="#"><i class="fa-regular fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="" class="btn">Learn more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactleft">
+                    <h1 class="subtitles">Contact me</h1>
+                    <p><i class="fa-solid fa-square-envelope"></i>2021ugme@nitjsr.ac.in</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>9576470633</p>
+                    <div class="socialicon">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+
+                    </div>
+                    <a href="#" download class="btn btn3">Download CV</a>
+                </div>
+                <div class="contactright">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="message" id="" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <span id="msg"></span>
+    </div>
+    <div id="copyright">
+        <p>copyright © Kinwin. made with<i class="fas fa-heart"></i>by Anmol Singh </p>
+    </div>
+    <script src="js/script4.js"></script>
+</body>
+
+</html>
