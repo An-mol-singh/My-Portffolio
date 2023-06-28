@@ -579,7 +579,7 @@ color: #ff004f;
         font-size: 14px;
     }
 }
-@media only screen and (max-width:250px)
+@media only screen and (max-width:350px)
 {
     #navbar .fas {
         display: block;
@@ -636,7 +636,7 @@ font-size: 30px;
     }
    .layer{
        bottom:50px;
-       font-size:5px;
+       font-size:15px;
    }
     
 }
