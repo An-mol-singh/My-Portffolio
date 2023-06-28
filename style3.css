@@ -276,6 +276,7 @@ body {
     border-radius: 10px;
     position: absolute;
     left: 0;
+    bottom:100px;
     overflow: hidden;
     display: flex;
     align-items: center;
